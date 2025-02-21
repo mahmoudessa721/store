@@ -1,0 +1,390 @@
+.roboto-bold {
+    font-family: "Apple", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 740px;
+    background-color:rgb(255, 179, 179);
+}
+h1{
+    text-align: center;
+}  
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(255, 230, 230);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: black;
+}
+nav ul li .active{
+    background-color: white;
+    padding: 0 5px 0 5px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img .text{
+    width: 48%;
+    padding-left: 8%;
+    padding-top:80px;
+}
+.text h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.text p{
+    color: white;
+    line-height: 1.5;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.text button{
+    background-color: tomato;
+    color: white;
+    padding: 10px 33px;
+    font-size: 22px; 
+    border: none;
+}
+.text button:hover{
+    color: black;
+}
+.photo{
+    width: 35%;
+    padding-top: 50px;
+}
+
+.img .photo img{
+    height: 650px;
+    width: 400px;
+}
+
+.hadaea{
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 3%;
+}
+h2{
+    text-align: center;
+    font-size: 33px; 
+    font-weight: bold;
+    padding-bottom: 120px;
+}
+.hadaea .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.hadaea img{
+    width: 180px;
+    padding-left: 60px;
+}
+.card .img-2{
+    width: 150px;
+}
+
+.cards .card{
+    background-color:rgb(204, 204, 255);
+    width: 280px;
+    height: 230px;
+    padding: 15px;
+    margin-bottom: 25px;
+    transition: 1s;
+}
+.cards .card:hover{
+    opacity: 0.6;
+
+}
+.cards .par{
+    display: flex;
+    justify-content: space-between;
+}
+.cards .par-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.cards .par-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+ .pa-1{
+    background-color: #f8f9fa;
+    width:48px;
+    border-radius: 45%;
+}
+.btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn button{
+    color: white;
+    background-color: tomato;
+    border: none;
+    width: 193px;
+    height:40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+    transition: 2s;
+}
+.btn button:hover{
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+}
+
+.shop{
+    width: 90%;
+    height: 417px;/*350*/
+    background-color:rgb(128, 191, 255);
+    margin-top:200px;
+    margin-left: 8%;
+    border-radius: 20px; 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.photo{
+    width: 35%;
+}
+.photo img{
+    width:100%;
+    height: 350px;/*320*/
+    padding-left: 20px;
+}
+.pargraph{
+    width: 60%;
+    padding-top: 50px;
+}
+.pargraph h4{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.pargraph p{
+    color: white;
+    padding-top: 20px;
+    font-size: 22px;
+}
+.pargraph .btn{
+    margin-left:-400px;
+}
+.pargraph .btn .btn-1{
+    color: white;
+    background-color:#17a2b8;
+    width: 170px;
+    height: 40px;
+}
+.pargraph .btn .btn-1:hover{
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+    background-color: transparent;
+}
+.pargraph .btn .btn-2{
+    color: black;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+.pargraph .btn .btn-2:hover{
+    color: white;
+    border:1px solid white;
+    background-color: #17a2b8;
+}
+.car{
+    margin-top: 70px;
+}
+.lolo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 8%;
+}
+.lolo .car-1{
+    width: 320px;
+    height: 200px;
+    background-color: rgb(217, 217, 217);
+    text-align: center;
+    padding-top: 20px;
+}
+i{
+    font-size: 40px;    
+}
+h4{
+    font-size: 25px;
+    padding-top: 15px;
+}
+p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.color{
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(89, 0, 179);
+    margin-left: 8%;
+    margin-top: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imge{
+    width: 40%;
+}
+.imge img{
+    width: 80%;
+    padding-left: 25px;
+}
+.color .pargraph{
+    width: 55%;
+}
+.btn-5{
+    margin-top: 40px;
+}
+.bt{
+    width: 170px;
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.bt:hover{
+    color: white;
+    background-color: rgb(89, 0, 179);
+    border: 1px solid white;
+}
+.tt{
+    width: 170px;
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(132, 106, 158);
+    border:none;
+}
+.tt:hover{
+    color: rgb(89, 0, 179);
+    background-color: white;
+}
+.end{
+    width: 90%;
+    height: 395px;
+    background-color:#343a40;
+    margin-left: 8%;
+    margin-top: 100px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    color:white;
+    width: 570px;
+    height: 180px;
+    margin-top: 120px;
+    margin-left: 110px;
+    padding-right: 25px;
+}
+ h5{
+     font-size: 22px;
+}
+p{
+    color: rgb(167, 155, 179);
+    font-size: 21px;
+}
+.new{
+    width: 570px;
+    height: 80px;
+    margin-right: 15px;
+}
+.new h5{
+    color: white;
+    font-size: 25px;
+}
+.new input{
+    height: 35px;
+    width: 220px;
+    font-size:20px ;
+}
+.new a{
+    color: white;
+    border:none;
+    background-color: rgb(255, 179, 179);
+    text-decoration: none;
+    margin-top: 17px;
+    width: 140px;
+    height: 35px;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.need{
+    width: 570px;
+    height: 80px;
+    margin-right: 20px;
+        
+}
+.need h5{
+    color: white;
+}
+.contact{
+    width: 570px;
+    height: 80px;
+}
+.contact h5{
+    color: white;
+}
+.contact .par{
+    margin-top: 15px;
+}
+.contact .par i{
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.contact .par a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.yousef{
+    text-align: center;
+    margin-top: 15px;
+}
+
